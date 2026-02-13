@@ -43,7 +43,7 @@ cv:
         end_date: present
         highlights:
           - Eight-month extended ASci Summer Internship; selected among ~1750 applicants for one of 14 positions.
-          - Topic: composition of diffusion models with fuzzy logic.
+          - "Topic: composition of diffusion models with fuzzy logic."
 
       - company: TU Wien
         location: Vienna, Austria
@@ -52,7 +52,7 @@ cv:
         end_date: 2025-01
         highlights:
           - Eight-month part-time research project.
-          - Topic: embedding social network interaction graphs as intervals.
+          - "Topic: embedding social network interaction graphs as intervals."
 
       - company: TU Wien
         location: Vienna, Austria
@@ -61,7 +61,7 @@ cv:
         end_date: 2024-06
         highlights:
           - Six-month part-time research project.
-          - Topic: probabilistic robustness verification of neural networks.
+          - "Topic: probabilistic robustness verification of neural networks."
 
       - company: Karl Landsteiner Institute for Outpatient Rehabilitation
         location: Austria
