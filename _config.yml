@@ -15,7 +15,7 @@ keywords: quantum machine learning, machine learning, robustness, verification, 
 
 # Your actual GitHub Pages address
 url: https://peter-blohm.github.io
-baseurl: ""   # IMPORTANT: empty for user site
+baseurl: "" # IMPORTANT: empty for user site
 
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -282,7 +282,6 @@ display_categories: []
 scholar:
   last_name: [Blohm]
   first_name: [Peter, P.]
-
 
   style: apa
   locale: en
@@ -672,5 +671,3 @@ jsonresume:
   - languages
   - interests
   - references
-
-

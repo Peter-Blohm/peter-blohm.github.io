@@ -26,6 +26,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
 I am a first year PhD student at TU Wien, advised by [Thomas Gärtner](https://thomasgaertner.org/).
 
 Most recently, I was a research assistant at Aalto University in the group led by [Vikas Garg](https://www.aalto.fi/en/people/vikas-kumar-garg) (QuML: [https://quml.aalto.fi/about-us/](https://quml.aalto.fi/about-us/)).  
@@ -36,7 +37,6 @@ My research interests include:
 - **Robustness & verification:** probabilistic guarantees for ML systems
 - **Generative models:** diffusion models and compositional modeling (incl. fuzzy logic)
 - **Networks & structured data:** graph-based representations and opinion dynamics
-
 
 I also do applied work in medical data analysis at the Karl Landsteiner Institute for Outpatient Rehabilitation, focused on predictive modeling and outcomes analysis in rehabilitation.
 
