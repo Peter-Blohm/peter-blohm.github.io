@@ -15,9 +15,9 @@ const progressBar = $("#progress");
  * To account for this, a minimal delay was introduced before computing the
  * values.
  */
-window.onload = function () {
+window.addEventListener("load", function () {
   setTimeout(progressBarSetup, 50);
-};
+});
 /*
  * We set up the bar according to the browser.
  * If the browser supports the progress element we use that.
@@ -46,9 +46,7 @@ function getCurrentScrollPosition() {
 }
 
 function initializeProgressElement() {
-  let navbarHeight = $("#navbar").outerHeight(true);
-  $("body").css({ "padding-top": navbarHeight });
-  $("progress-container").css({ "padding-top": navbarHeight });
+  const navbarHeight = $("#navbar").outerHeight(true);
   progressBar.css({ top: navbarHeight });
   progressBar.attr({
     max: getDistanceToScroll(),
