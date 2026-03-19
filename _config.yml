@@ -9,7 +9,7 @@ contact_note: >
   Best way to reach me: email.
 
 description: >
-  Research Assistant in the Quantum Machine Learning Group at Aalto University.
+  PhD student at TU Wien working on learning-theory-based formal verification and robust machine learning.
 
 keywords: quantum machine learning, machine learning, robustness, verification, diffusion models, fuzzy logic
 
@@ -197,6 +197,12 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/books.md
+  - _pages/dropdown.md
+  - _pages/profiles.md
+  - _pages/projects.md
+  - _pages/repositories.md
+  - _pages/teaching.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -204,6 +210,7 @@ exclude:
   - _projects/
   - _books/
   - _teachings/
+  - assets/json/resume.json
 keep_files:
   - CNAME
   - .nojekyll
@@ -400,6 +407,7 @@ enable_google_analytics: false # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
+enable_simple_analytics: false # enables Simple Analytics Cloud (https://simpleanalytics.com/)
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_cookie_consent: false # enables GDPR-compliant cookie consent dialog (https://github.com/orestbida/cookieconsent)

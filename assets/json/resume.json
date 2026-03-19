@@ -1,221 +1,256 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Peter Blohm",
+    "label": "PreDoc Project Assistant",
     "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "peter.blohm@tuwien.ac.at",
+    "summary": "PreDoc Project Assistant at TU Wien (Machine Learning Research Unit), focused on learning-theory-based formal verification and robust machine learning.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Vienna",
+      "countryCode": "AT",
+      "region": "Austria"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "Website",
+        "url": "https://peter-blohm.github.io"
+      },
+      {
+        "network": "Email (Aalto)",
+        "url": "mailto:peter.blohm@aalto.fi"
+      }
+    ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Princeton University, NJ",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity", "Description 2."]
+      "name": "Aalto University",
+      "position": "Research Assistant",
+      "location": "Finland",
+      "startDate": "2025-01-01",
+      "endDate": "2026-01-01",
+      "summary": "Quantum Machine Learning Group",
+      "highlights": [
+        "Supervisor: Asst. Prof. Vikas Garg",
+        "Eight-month extended ASci Summer Internship",
+        "Selected among ~1750 applicants for one of 14 positions",
+        "Topic: composition of diffusion models with fuzzy logic"
+      ]
     },
     {
-      "name": "California Institute of Technology",
-      "position": "Visiting Professor",
-      "location": "Pasadena, California, US",
-      "startDate": "1933-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
+      "name": "TU Wien",
+      "position": "Student Assistant in Research",
+      "location": "Vienna, Austria",
+      "startDate": "2024-01-01",
+      "endDate": "2025-01-01",
+      "summary": "Research Unit for Machine Learning",
+      "highlights": [
+        "Supervisor: Asst. Prof. Stefan Neumann",
+        "Eight-month part-time research project",
+        "Topic: embedding social network interaction graphs as intervals"
+      ]
     },
     {
-      "name": "Kaiser Wilhelm Institute for Physics",
-      "position": "Director",
-      "location": "Berlin, Germany",
-      "startDate": "1917-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "TU Wien",
+      "position": "Student Assistant in Research",
+      "location": "Vienna, Austria",
+      "startDate": "2024-01-01",
+      "endDate": "2024-12-31",
+      "summary": "Research Unit for Machine Learning",
+      "highlights": [
+        "Supervisor: Prof. Thomas Gärtner",
+        "Six-month part-time research project",
+        "Topic: probabilistic robustness verification of neural networks"
+      ]
     },
     {
-      "name": "Karl-Ferdinand University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Prague, Czechoslovakia",
-      "startDate": "1911-01-01",
-      "endDate": "1917-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "Karl Landsteiner Institute for Outpatient Rehabilitation",
+      "position": "Medical Data Analyst",
+      "location": "Austria",
+      "startDate": "2019-01-01",
+      "summary": "Part-time employment at a medical research facility",
+      "highlights": [
+        "Statistical analysis and machine learning on medical data",
+        "Predicting and improving rehabilitation outcomes for chronic back pain patients"
+      ]
     },
     {
-      "name": "University of Zurich",
-      "position": "Associate Professor of Theoretical Physics",
-      "location": "Zurich, Switzerland",
-      "startDate": "1909-01-01",
-      "endDate": "1911-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "Austrian Armed Forces",
+      "position": "Cyber-Grundwehrdiener (Armed Forces IT Personnel)",
+      "location": "Austria",
+      "startDate": "2018-01-01",
+      "endDate": "2019-01-01",
+      "summary": "Mandatory military service",
+      "highlights": ["Six months with focus on cyber operations"]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Physics",
+      "institution": "TU Wien",
+      "location": "Vienna, Austria",
+      "area": "Automated Reasoning Doctoral College",
       "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
+      "startDate": "2026-01-01",
+      "highlights": [
+        "Supervisors: Prof. Thomas Gärtner; Prof. Ezio Bartocci",
+        "Research area: learning-theory-based formal verification"
+      ]
     },
     {
-      "institution": "Eidgenössische Technische Hochschule",
-      "location": "Zurich, Switzerland",
-      "area": "Physics",
-      "studyType": "Federal teaching diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
-      "score": "",
-      "courses": [],
-      "highlights": ["Description 1.", "Description 2."]
+      "institution": "TU Wien",
+      "location": "Vienna, Austria",
+      "area": "Logic and Computation",
+      "studyType": "MSc (with distinction)",
+      "startDate": "2023-01-01",
+      "endDate": "2025-01-01",
+      "highlights": [
+        "Supervisors: Prof. Thomas Gärtner; Sagar Malhotra, PhD",
+        "Thesis: Probabilistic Verification of Black-Box Systems",
+        "Focus on algorithms, artificial intelligence, knowledge representation, and logic"
+      ]
+    },
+    {
+      "institution": "TU Wien",
+      "location": "Vienna, Austria",
+      "area": "Software & Information Engineering",
+      "studyType": "Extended Bachelor's with Honors (with distinction)",
+      "startDate": "2019-01-01",
+      "endDate": "2023-01-01",
+      "highlights": [
+        "Supervisor & mentor: Prof. Thomas Gärtner",
+        "Thesis: Breaking the Radon Machine: Investigating the Robustness of a Machine Learning Parallelization Scheme",
+        "One-year extension programme for excellent students",
+        "Additional focus courses in algorithmics, AI, and neuroscience (61 ECTS)"
+      ]
+    },
+    {
+      "institution": "Technologisches Gewerbemuseum (TGM) / HTBLuVA",
+      "location": "Austria",
+      "area": "Biomedical Engineering",
+      "studyType": "BHS-Matura (with distinction)",
+      "startDate": "2013-01-01",
+      "endDate": "2018-01-01",
+      "highlights": [
+        "Five-year Austrian higher secondary programme",
+        "Training in electronics laboratories, cell culture laboratories, and industry internships"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Best Master Thesis Award 2025 (Runner Up)",
+      "date": "2025-01-01",
+      "awarder": "Faculty of Informatics, TU Wien",
+      "summary": "Selected by jury of professors and awarded to top theses of the faculty"
     },
     {
-      "title": "Max Planck Medal",
-      "date": "2029-01-01",
-      "awarder": "German Physical Society",
-      "summary": ""
+      "title": "NeurIPS Financial Support",
+      "date": "2025-01-01",
+      "awarder": "NeurIPS",
+      "summary": "Awarded to first-time conference authors"
+    },
+    {
+      "title": "Merit Scholarship",
+      "date": "2023-01-01",
+      "awarder": "Faculty of Informatics, TU Wien",
+      "summary": "Received in academic years 2020, 2021, and 2023 for outstanding academic performance"
+    },
+    {
+      "title": "Foundation Scholarship",
+      "date": "2023-01-01",
+      "awarder": "Faculty of Informatics, TU Wien",
+      "summary": "Received in academic years 2021, 2022, and 2023 for strong academic performance"
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-envelope"
-    }
-  ],
+  "certificates": [],
   "publications": [
     {
-      "name": "Zur Elektrodynamik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Quantifying Temperature Scaling in Discrete Sequence (Language) Models",
+      "publisher": "ICML 2026 (under review)",
+      "releaseDate": "2026-01-01",
+      "summary": "Hannah Scheufele, Peter Blohm, Vikas Garg"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Composition of Pretrained Diffusion Models: A Logic-Based Calculus",
+      "publisher": "ICLR 2026 (to appear)",
+      "releaseDate": "2026-01-01",
+      "summary": "Peter Blohm, Vikas Garg"
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Discovering Opinion Intervals from Conflicts in Signed Graphs",
+      "publisher": "NeurIPS 2025 (oral presentation)",
+      "releaseDate": "2025-01-01",
+      "summary": "Peter Blohm*, Florian Chen*, Aristides Gionis, Stefan Neumann (* equal contribution)"
+    },
+    {
+      "name": "Probably Approximately Global Robustness Guarantees",
+      "publisher": "ICML 2025",
+      "releaseDate": "2025-01-01",
+      "summary": "Peter Blohm, Patrick Indri, Sagar Malhotra, Thomas Gärtner"
+    },
+    {
+      "name": "Fuzzy Logic Composition of Diffusion Models",
+      "publisher": "Workshop on Differentiable Learning of Combinatorial Algorithms, NeurIPS 2025",
+      "releaseDate": "2025-01-01",
+      "summary": "Peter Blohm, Vikas Garg"
+    },
+    {
+      "name": "Distillation Based Robustness Verification with PAC Guarantees",
+      "publisher": "Next Generation of AI Safety Workshop, ICML 2024",
+      "releaseDate": "2024-01-01",
+      "summary": "Patrick Indri*, Peter Blohm*, Anagha Athavale, Ezio Bartocci, Georg Weissenbacher, Matteo Maffei, Dejan Nickovic, Thomas Gärtner, Sagar Malhotra (* equal contribution)"
+    },
+    {
+      "name": "Breaking Down the Radon Machine: The Geometry of Robust Aggregation Scheme",
+      "publisher": "Workshop on Advancements in Federated Learning, ECML 2024 (oral presentation)",
+      "releaseDate": "2024-01-01",
+      "summary": "Peter Blohm, Patrick Indri, Thomas Gärtner"
+    },
+    {
+      "name": "Machine Learning Based Linking of Patient Reported Outcome Measures to WHO International Classification of Functioning, Disability, and Health Activity/Participation Categories",
+      "publisher": "Journal of Clinical Medicine (MDPI)",
+      "releaseDate": "2023-01-01",
+      "summary": "Richard Habenicht, Elisabeth Fehrmann, Peter Blohm, Gerold Ebenbichler, Linda Fischer-Grote, Josef Kollmitzer, Patrick Mair, Thomas Kienbacher"
+    },
+    {
+      "name": "The Back Muscle Surface Electromyography-Based Fatigue Index: A Digital Biomarker of Human Neuromuscular Aging?",
+      "publisher": "Bioengineering (MDPI)",
+      "releaseDate": "2023-01-01",
+      "summary": "Gerold Ebenbichler, Richard Habenicht, Peter Blohm, Paolo Bonato, Josef Kollmitzer, Patrick Mair, Thomas Kienbacher"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Research Areas",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Formal verification",
+        "Robust machine learning",
+        "Diffusion models",
+        "Fuzzy logic",
+        "Graph learning",
+        "Medical data analysis"
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    },
-    {
-      "name": "Professor Jane Smith",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    }
-  ],
+  "languages": [],
+  "interests": [],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
+      "name": "Teaching Assistantship: Introduction to Machine Learning",
+      "summary": "Student Teaching Assistant at TU Wien (2023–2024)",
+      "highlights": [
+        "Assisted organization of course material, assignments, grading, and student support",
+        "Designed and ran an applied student project as a Kaggle competition"
+      ],
+      "startDate": "2023-01-01",
+      "endDate": "2024-01-01"
+    },
+    {
+      "name": "Invited Talk: Probably Approximately Global Robustness Certification",
+      "summary": "Machine Learning and Modelling Seminar, Charles University (Dec 2024)",
+      "startDate": "2024-12-01",
+      "endDate": "2024-12-01"
     }
   ]
 }
