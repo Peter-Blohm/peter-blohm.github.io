@@ -1,14 +1,12 @@
 <!-- jQuery -->
 <script
   defer
-  defer
   src="{{ site.third_party_libraries.jquery.url.js }}"
   integrity="{{ site.third_party_libraries.jquery.integrity.js }}"
   crossorigin="anonymous"
 ></script>
 
-<!-- Bootsrap & MDB scripts -->
-<script defer src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+<!-- Bootstrap & MDB scripts -->
 <script defer src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
 {% if site.enable_mdb_js %}
   <script
@@ -185,7 +183,6 @@
 {% endif %}
 
 <!-- Load Common JS -->
-<script defer src="{{ '/assets/js/no_defer.js' | relative_url | bust_file_cache }}"></script>
 <script defer src="{{ '/assets/js/no_defer.js' | relative_url | bust_file_cache }}"></script>
 <script defer src="{{ '/assets/js/common.js' | relative_url | bust_file_cache }}"></script>
 <script defer src="{{ '/assets/js/copy_code.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
@@ -378,19 +375,12 @@
 {% if page.tabs %}
   <!-- Jekyll Tabs -->
   <script defer src="{{ '/assets/js/tabs.min.js' | relative_url | bust_file_cache }}"></script>
-  <script defer src="{{ '/assets/js/tabs.min.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
 {% if site.back_to_top %}
   <!-- Back to Top -->
   <script defer src="{{ '/assets/js/vanilla-back-to-top.min.js' | relative_url | bust_file_cache }}"></script>
-  <script defer src="{{ '/assets/js/vanilla-back-to-top.min.js' | relative_url | bust_file_cache }}"></script>
   <script>
-    window.addEventListener('load', function () {
-      if (typeof addBackToTop === 'function') {
-        addBackToTop();
-      }
-    });
     window.addEventListener('load', function () {
       if (typeof addBackToTop === 'function') {
         addBackToTop();
@@ -402,9 +392,42 @@
 {% if site.search_enabled %}
   <!-- Search -->
   <ninja-keys hideBreadcrumbs noAutoLoadMdIcons placeholder="Type to start searching"></ninja-keys>
-  <script defer src="{{ '/assets/js/search-setup.js' | relative_url | bust_file_cache }}"></script>
-  <script defer src="{{ '/assets/js/search-data.js' | relative_url }}"></script>
-  <script defer src="{{ '/assets/js/shortcut-key.js' | relative_url | bust_file_cache }}"></script>
+  <script>
+    (function () {
+      var loaded = false;
+      function loadSearchAssetsOnce() {
+        if (loaded) return;
+        loaded = true;
+
+        var s1 = document.createElement('script');
+        s1.defer = true;
+        s1.src = "{{ '/assets/js/search-setup.js' | relative_url | bust_file_cache }}";
+        document.body.appendChild(s1);
+
+        var s2 = document.createElement('script');
+        s2.defer = true;
+        s2.src = "{{ '/assets/js/search-data.js' | relative_url }}";
+        document.body.appendChild(s2);
+
+        var s3 = document.createElement('script');
+        s3.defer = true;
+        s3.src = "{{ '/assets/js/shortcut-key.js' | relative_url | bust_file_cache }}";
+        document.body.appendChild(s3);
+      }
+
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadSearchAssetsOnce, { timeout: 3000 });
+      } else {
+        window.addEventListener('load', function () {
+          setTimeout(loadSearchAssetsOnce, 1200);
+        });
+      }
+
+      ['pointerdown', 'keydown', 'focusin', 'touchstart'].forEach(function (eventName) {
+        window.addEventListener(eventName, loadSearchAssetsOnce, { once: true, passive: true });
+      });
+    })();
+  </script>
 {% endif %}
 
 {% if site.newsletter.enabled %}
