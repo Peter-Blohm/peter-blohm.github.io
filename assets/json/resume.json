@@ -165,58 +165,25 @@
   "certificates": [],
   "publications": [
     {
-      "name": "Quantifying Temperature Scaling in Discrete Sequence (Language) Models",
-      "publisher": "ICML 2026 (under review)",
-      "releaseDate": "2026-01-01",
-      "summary": "Hannah Scheufele, Peter Blohm, Vikas Garg"
-    },
-    {
       "name": "Composition of Pretrained Diffusion Models: A Logic-Based Calculus",
-      "publisher": "ICLR 2026 (to appear)",
+      "publisher": "International Conference on Learning Representations (ICLR)",
       "releaseDate": "2026-01-01",
-      "summary": "Peter Blohm, Vikas Garg"
+      "url": "https://openreview.net/forum?id=ADLiUSC7Qm",
+      "summary": "Peter Blohm, Vikas K. Garg"
     },
     {
       "name": "Discovering Opinion Intervals from Conflicts in Signed Graphs",
-      "publisher": "NeurIPS 2025 (oral presentation)",
+      "publisher": "Advances in Neural Information Processing Systems (NeurIPS)",
       "releaseDate": "2025-01-01",
-      "summary": "Peter Blohm*, Florian Chen*, Aristides Gionis, Stefan Neumann (* equal contribution)"
+      "url": "https://openreview.net/forum?id=zJdutIT6vT",
+      "summary": "Peter Blohm, Florian Chen, Aristides Gionis, Stefan Neumann"
     },
     {
-      "name": "Probably Approximately Global Robustness Guarantees",
-      "publisher": "ICML 2025",
+      "name": "Probably Approximately Global Robustness Certification",
+      "publisher": "International Conference on Machine Learning (ICML)",
       "releaseDate": "2025-01-01",
-      "summary": "Peter Blohm, Patrick Indri, Sagar Malhotra, Thomas Gärtner"
-    },
-    {
-      "name": "Fuzzy Logic Composition of Diffusion Models",
-      "publisher": "Workshop on Differentiable Learning of Combinatorial Algorithms, NeurIPS 2025",
-      "releaseDate": "2025-01-01",
-      "summary": "Peter Blohm, Vikas Garg"
-    },
-    {
-      "name": "Distillation Based Robustness Verification with PAC Guarantees",
-      "publisher": "Next Generation of AI Safety Workshop, ICML 2024",
-      "releaseDate": "2024-01-01",
-      "summary": "Patrick Indri*, Peter Blohm*, Anagha Athavale, Ezio Bartocci, Georg Weissenbacher, Matteo Maffei, Dejan Nickovic, Thomas Gärtner, Sagar Malhotra (* equal contribution)"
-    },
-    {
-      "name": "Breaking Down the Radon Machine: The Geometry of Robust Aggregation Scheme",
-      "publisher": "Workshop on Advancements in Federated Learning, ECML 2024 (oral presentation)",
-      "releaseDate": "2024-01-01",
-      "summary": "Peter Blohm, Patrick Indri, Thomas Gärtner"
-    },
-    {
-      "name": "Machine Learning Based Linking of Patient Reported Outcome Measures to WHO International Classification of Functioning, Disability, and Health Activity/Participation Categories",
-      "publisher": "Journal of Clinical Medicine (MDPI)",
-      "releaseDate": "2023-01-01",
-      "summary": "Richard Habenicht, Elisabeth Fehrmann, Peter Blohm, Gerold Ebenbichler, Linda Fischer-Grote, Josef Kollmitzer, Patrick Mair, Thomas Kienbacher"
-    },
-    {
-      "name": "The Back Muscle Surface Electromyography-Based Fatigue Index: A Digital Biomarker of Human Neuromuscular Aging?",
-      "publisher": "Bioengineering (MDPI)",
-      "releaseDate": "2023-01-01",
-      "summary": "Gerold Ebenbichler, Richard Habenicht, Peter Blohm, Paolo Bonato, Josef Kollmitzer, Patrick Mair, Thomas Kienbacher"
+      "url": "https://openreview.net/forum?id=UKHlXpiFMy",
+      "summary": "Peter Blohm, Patrick Indri, Thomas Gärtner, Sagar Malhotra"
     }
   ],
   "skills": [
