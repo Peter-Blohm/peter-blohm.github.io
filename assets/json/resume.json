@@ -91,10 +91,7 @@
       "area": "Automated Reasoning Doctoral College",
       "studyType": "PhD",
       "startDate": "2026-01-01",
-      "highlights": [
-        "Supervisors: Prof. Thomas Gärtner; Prof. Ezio Bartocci",
-        "Research area: learning-theory-based formal verification"
-      ]
+      "highlights": ["Supervisors: Prof. Thomas Gärtner; Prof. Ezio Bartocci", "Research area: learning-theory-based formal verification"]
     },
     {
       "institution": "TU Wien",
@@ -189,14 +186,7 @@
   "skills": [
     {
       "name": "Research Areas",
-      "keywords": [
-        "Formal verification",
-        "Robust machine learning",
-        "Diffusion models",
-        "Fuzzy logic",
-        "Graph learning",
-        "Medical data analysis"
-      ]
+      "keywords": ["Formal verification", "Robust machine learning", "Diffusion models", "Fuzzy logic", "Graph learning", "Medical data analysis"]
     }
   ],
   "languages": [],
