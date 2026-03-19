@@ -5,9 +5,23 @@
 #email: peter.blohm@tuwien.ac.at # your email address
 #inspirehep_id: 1010907 # Inspire HEP author ID
 #rss_icon: true # comment this line to hide the RSS icon
-github_username: Peter-Blohm
-linkedin_username: peter-blohm-452030369
-scholar_userid: pJPpDsoAAAAJ # your Google Scholar ID
+#github_username: Peter-Blohm
+#linkedin_username: peter-blohm-452030369
+#scholar_userid: pJPpDsoAAAAJ # your Google Scholar ID
+custom_github:
+  logo: /assets/img/icons/github.svg
+  title: GitHub
+  url: https://github.com/Peter-Blohm
+
+custom_linkedin:
+  logo: /assets/img/icons/linkedin.svg
+  title: LinkedIn
+  url: https://www.linkedin.com/in/peter-blohm-452030369
+
+custom_scholar:
+  logo: /assets/img/icons/scholar.svg
+  title: Google Scholar
+  url: https://scholar.google.com/citations?user=pJPpDsoAAAAJ
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 #custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
