@@ -34,6 +34,7 @@ Currently implemented in al-folio:
 - **Google Analytics** – Free, feature-rich, but collects user data
 - **Pirsch Analytics** – GDPR-compliant, free tier available, European servers
 - **Openpanel Analytics** – Open-source option, privacy-focused
+- **Simple Analytics Cloud** – Privacy-focused, minimal setup, no visible counter needed
 - **Cronitor** – Uptime monitoring with Real User Monitoring (RUM) analytics
 
 ---
@@ -122,6 +123,27 @@ If you're concerned about user privacy or GDPR compliance, consider these altern
 4. In `_config.yml`, set `enable_openpanel_analytics: true`
 5. Add your Client ID: `openpanel_analytics: YOUR_CLIENT_ID` (format: UUID)
 6. Commit and push
+
+---
+
+### Simple Analytics Cloud
+
+**Best for:** Minimal, invisible visit tracking with a simple dashboard
+
+**Features:**
+
+- ✅ Privacy-focused
+- ✅ Very small setup footprint
+- ✅ No visible widget/counter required
+
+**Setup:**
+
+1. Create an account at [Simple Analytics](https://simpleanalytics.com)
+2. Add your website domain in the Simple Analytics dashboard
+3. In `_config.yml`, set `enable_simple_analytics: true`
+4. Commit and push
+
+This repository already includes the required script integration; enabling the flag is enough.
 
 ---
 

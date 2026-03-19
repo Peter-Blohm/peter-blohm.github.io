@@ -264,6 +264,20 @@
     src="https://openpanel.dev/op1.js"
   ></script>
 {% endif %}
+{% if site.enable_simple_analytics %}
+  <!-- Simple Analytics Cloud -->
+  <script
+    {% if site.enable_cookie_consent %}
+      type="text/plain" data-category="analytics"
+    {% endif %}
+    async
+    defer
+    src="https://scripts.simpleanalyticscdn.com/latest.js"
+  ></script>
+  <noscript>
+    <img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade">
+  </noscript>
+{% endif %}
 
 {% if site.enable_progressbar %}
   <!-- Scrolling Progress Bar -->
