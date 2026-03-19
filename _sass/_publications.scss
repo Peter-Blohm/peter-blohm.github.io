@@ -41,6 +41,10 @@
 
       .preview {
         display: inline-block;
+        width: 200px;
+        height: 200px;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
       }
 
       .abbr {
@@ -185,4 +189,20 @@
 .citation,
 .citation-number {
   color: var(--global-theme-color);
+}
+
+@media (max-width: 576px) {
+  .publications {
+    ol.bibliography {
+      li {
+        .hidden,
+        .hidden.open {
+          transition: none;
+          -moz-transition: none;
+          -ms-transition: none;
+          -o-transition: none;
+        }
+      }
+    }
+  }
 }
