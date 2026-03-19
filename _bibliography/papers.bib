@@ -11,9 +11,10 @@
   url       = {https://openreview.net/forum?id=ADLiUSC7Qm},
   pdf       = {https://openreview.net/pdf?id=ADLiUSC7Qm},
   code      = {https://github.com/Aalto-QuML/logic-diffusion-composition},
+  abstract  = {Composing pretrained diffusion models provides a cost-effective mechanism to encode constraints and unlock complex generative capabilities. Prior work relies on set-theoretic composition operators but suffers from limited mode coverage, biased sampling, instability under negation queries, and violations of core compositional laws. We introduce a principled calculus grounded in fuzzy logic, defining conjunction, disjunction, and negation operators that generalize classical mixtures and avoid these pathologies. Beyond existing methods, Dombi operators enable richer compositions such as Exclusive-OR, and we derive Feynman-Kac correctors to mitigate sampling bias. Empirical results on image generation with Stable Diffusion and multi-objective molecular generation support the conceptual, theoretical, and methodological benefits.},
   selected  = {true},
   blog      = {/blog/2026/hot-fuzz/},
-  preview = {hotfuzz.png}
+  preview   = {hotfuzz.png}
 }
 
 @inproceedings{blohm2025opinionintervals,
@@ -25,7 +26,12 @@
   abbr      = {NeurIPS},
   url       = {https://openreview.net/forum?id=zJdutIT6vT},
   pdf       = {https://openreview.net/pdf?id=zJdutIT6vT},
-  code = {https://github.com/Peter-Blohm/discovering_opinion_intervals},
+  code      = {https://github.com/Peter-Blohm/discovering_opinion_intervals},
+  abstract  = {Online social media provide a platform for people to exchange opinions with peers, but signed interactions often reveal conflicts that are not well explained by cluster-based models. We ask whether these conflicts reveal a small and interpretable set of prevalent opinion ranges. We introduce an optimization problem on signed graphs that infers opinion intervals consistent with edge signs, provide hardness and approximation results via connections to interval graphs and correlation clustering, and develop scalable heuristics. Experiments show improved expressivity over correlation-clustering baselines, and a case study on German parliament co-voting recovers meaningful political structure.},
+  award     = {Oral presentation distinction at NeurIPS 2025 (Top 1.6%)},
+  award_name= {Oral (Top 1.6%)},
+  news      = {https://openreview.net/forum?id=zJdutIT6vT},
+  preview   = {neurips2025_opinionintervals.png},
   selected  = {true}
 }
 
@@ -39,5 +45,6 @@
   url       = {https://openreview.net/forum?id=UKHlXpiFMy},
   pdf       = {https://openreview.net/pdf?id=UKHlXpiFMy},
   code      = {https://github.com/pindri/fake_contraposition},
+  abstract  = {We propose probabilistic guarantees for adversarial robustness of classification algorithms. Traditional formal verification is often intractable for modern models, while sampling-only approaches lack formal guarantees. Our method samples an epsilon-net and evaluates a local robustness oracle on the sample, yielding probably approximately global robustness guarantees. The required sample size is independent of input dimensionality, number of classes, and learning algorithm, which enables application to larger neural networks than typical formal global verification methods. Experiments show that the approach better characterizes robustness than prior sampling-based baselines and scales favorably compared with formal methods.},
   selected  = {true}
 }
