@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "post-my-first-post",
         
           title: "My first post",
@@ -39,6 +46,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-started-my-phd-at-tu-wien",
           title: 'I started my PhD at TU Wien.',
+          description: "",
+          section: "News",},{id: "news-our-paper-about-temperature-scaling-in-language-models-was-accepted-to-icml-great-job-hannah-and-vikas",
+          title: 'Our paper about temperature scaling in language models was accepted to ICML. Great...',
           description: "",
           section: "News",},{
         id: 'social-github',
