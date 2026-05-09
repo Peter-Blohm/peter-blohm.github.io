@@ -10,5 +10,5 @@ cv_format: jsonresume # options: rendercv, jsonresume
 # Never include non-published or under-review entries there.
 # description: Peter Blohm — Curriculum Vitae
 toc:
-	sidebar: left
+  sidebar: left
 ---
