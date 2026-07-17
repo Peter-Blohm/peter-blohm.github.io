@@ -57,7 +57,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-was-recognized-as-a-gold-reviewer-for-icml-2026",
           title: 'I was recognized as a Gold Reviewer for ICML 2026.',
           description: "",
-          section: "News",},{id: "news-i-have-returned-to-aalto-university-for-a-summer-research-internship-in-vikas-garg-s-group-from-june-15-to-september-11",
+          section: "News",},{id: "news-i-have-returned-to-aalto-university-for-a-summer-research-internship-in-vikas-garg-s-group",
           title: 'I have returned to Aalto University for a summer research internship in Vikas...',
           description: "",
           section: "News",},{id: "news-two-workshop-papers-were-accepted-at-ecml-pkdd-2026-iterative-indexing-of-polycrystalline-laue-diffraction-patterns-via-cluster-driven-inference-at-ml4ems-and-on-the-best-interval-approximation-problem-at-mlg-the-latter-as-an-oral-presentation",
