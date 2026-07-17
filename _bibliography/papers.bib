@@ -1,6 +1,22 @@
 ---
 ---
 %  code      = {https://github.com/<you>/<repo>},
+@inproceedings{scheufele2026temperature,
+  title     = {Temperature Scaling in Discrete Sequence (Language) Models},
+  author    = {Scheufele*, Hannah and Blohm*, Peter and Garg, Vikas K.},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2026},
+  note      = {ICML 2026 Poster},
+  abbr      = {ICML},
+  url       = {https://openreview.net/forum?id=bHIeH7450V},
+  pdf       = {https://openreview.net/pdf?id=bHIeH7450V},
+  code      = {https://github.com/Aalto-QuML/temp_lm},
+  blog      = {/blog/2026/temperature-scaling-discrete-sequence-models/},
+  poster    = {https://icml.cc/media/PosterPDFs/ICML%202026/62981.png},
+  abstract  = {Temperature scaling is widely used to control generation behavior and improve reasoning performance in discrete sequence models. However, sequence-level temperature scaling is challenging because the partition function is typically intractable and token-wise temperature scaling can bias maximum a posteriori estimates. This work introduces a unified formalism for autoregressive and diffusion-based language models, partition-free metrics for quantifying temperature scaling, and fine-tuning objectives that reliably achieve the desired change in model temperature. Experiments with GPT2 and BD3LM show more consistent generation with lower perplexity, with additional evidence for improved reasoning performance.},
+  selected  = {true}
+}
+
 @inproceedings{blohm2026hotfuzz,
   title     = {Composition of Pretrained Diffusion Models: A Logic-Based Calculus},
   author    = {Blohm, Peter and Garg, Vikas K.},
