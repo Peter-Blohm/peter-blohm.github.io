@@ -23,16 +23,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "post-my-first-post",
+        },{id: "post-temperature-scaling-in-discrete-sequence-models",
         
-          title: "My first post",
+          title: "Temperature Scaling in Discrete Sequence Models",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/temperature-scaling-discrete-sequence-models/";
+          
+        },
+      },{id: "post-composition-of-pretrained-diffusion-models",
+        
+          title: "Composition of Pretrained Diffusion Models",
         
         description: "",
         section: "Posts",
@@ -47,8 +51,14 @@ ninja.data = [{
           section: "News",},{id: "news-i-started-my-phd-at-tu-wien",
           title: 'I started my PhD at TU Wien.',
           description: "",
-          section: "News",},{id: "news-our-paper-about-temperature-scaling-in-language-models-was-accepted-to-icml-great-job-hannah-and-vikas",
-          title: 'Our paper about temperature scaling in language models was accepted to ICML. Great...',
+          section: "News",},{id: "news-our-paper-was-accepted-to-icml-temperature-scaling-in-discrete-sequence-language-models-with-hannah-scheufele-and-vikas-garg",
+          title: 'Our paper was accepted to ICML: Temperature Scaling in Discrete Sequence (Language) Models...',
+          description: "",
+          section: "News",},{id: "news-i-was-recognized-as-a-gold-reviewer-for-icml-2026",
+          title: 'I was recognized as a Gold Reviewer for ICML 2026.',
+          description: "",
+          section: "News",},{id: "news-two-workshop-papers-were-accepted-at-ecml-pkdd-2026-iterative-indexing-of-polycrystalline-laue-diffraction-patterns-via-cluster-driven-inference-at-ml4ems-and-on-the-best-interval-approximation-problem-at-mlg-the-latter-as-an-oral-presentation",
+          title: 'Two workshop papers were accepted at ECML PKDD 2026: Iterative Indexing of Polycrystalline...',
           description: "",
           section: "News",},{
         id: 'social-github',
