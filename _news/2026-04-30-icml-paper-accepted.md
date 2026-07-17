@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper about temperature scaling in language models was accepted to ICML. Great job Hannah and Vikas!
+Our paper was accepted to ICML: **Temperature Scaling in Discrete Sequence (Language) Models** — with Hannah Scheufele and Vikas Garg.

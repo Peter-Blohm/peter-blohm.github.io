@@ -40,4 +40,4 @@ My research interests include:
 
 I also do applied work in medical data analysis at the Karl Landsteiner Institute for Outpatient Rehabilitation, focused on predictive modeling and outcomes analysis in rehabilitation.
 
-You can find more details in my [CV](/cv/) and [publications](/publications/).
+You can find more details in my [publications](/publications/).
