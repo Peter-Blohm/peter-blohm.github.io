@@ -2,42 +2,37 @@
 layout: about
 title: about
 permalink: /
-subtitle: TU Wien, Aalto University
+subtitle: TU Wien
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-#  more_info: >
-#    <p>555 your office number</p>
-#    <p>123 your address street</p>
-#    <p>Your City, State 12345</p>
+  image_circular: false
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
-I am a first year PhD student at TU Wien, advised by [Thomas Gärtner](https://thomasgaertner.org/).
+I am a first-year PhD student at TU Wien, advised by [Thomas Gärtner](https://thomasgaertner.org/).
 
-Most recently, I was a research assistant at Aalto University in the group led by [Vikas Garg](https://www.aalto.fi/en/people/vikas-kumar-garg) (QuML: [https://quml.aalto.fi/about-us/](https://quml.aalto.fi/about-us/)).  
-Before that, I worked on interval-based embeddings for signed interaction graphs during a research internship at TU Wien supervised by [Stefan Neumann](https://neumannstefan.com/) (TU Wien Machine Learning Research Unit: [https://ml-tuw.github.io/](https://ml-tuw.github.io/)).
+During summer 2026, I am a research intern at Aalto University in the group of [Vikas Garg](https://www.aalto.fi/en/people/vikas-kumar-garg), where I previously worked on the composition and inference-time control of diffusion models ([QuML](https://quml.aalto.fi/about-us/)).
 
-My research interests include:
+Before beginning my PhD, I worked on interval-based embeddings for signed interaction graphs during a research internship at TU Wien, supervised by [Stefan Neumann](https://neumannstefan.com/).
 
-- **Robustness & verification:** probabilistic guarantees for ML systems
-- **Generative models:** diffusion models and compositional modeling (incl. fuzzy logic)
-- **Networks & structured data:** graph-based representations and opinion dynamics
+My PhD research studies how to support the safe deployment of complex machine learning systems through rigorous, data-informed guarantees. 
+<!-- In particular, I am interested in certifying targeted and interpretable properties of black-box systems and using these certificates for deployment-time decisions such as monitoring, abstention, and control.  -->
+My work draws on learning theory, verification, statistics, and probabilistic modeling, with applications to neural networks, generative models, and cyber-physical systems.
 
-I also do applied work in medical data analysis at the Karl Landsteiner Institute for Outpatient Rehabilitation, focused on predictive modeling and outcomes analysis in rehabilitation.
+I also conduct applied research in medical data analysis at the Karl Landsteiner Institute for Outpatient Rehabilitation, focusing on predictive modeling and outcomes analysis in rehabilitation.
 
 You can find more details in my [publications](/publications/).
