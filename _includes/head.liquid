@@ -59,6 +59,13 @@
   onload="this.onload=null;this.rel='stylesheet'"
 >
 <noscript><link rel="stylesheet" type="text/css" href="{{ site.third_party_libraries.google_fonts.url.fonts }}"></noscript>
+<link
+  rel="preload"
+  as="style"
+  href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}"
+  onload="this.onload=null;this.rel='stylesheet'"
+>
+<noscript><link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}"></noscript>
 
 <!-- Code Syntax Highlighting -->
 <link
