@@ -1,0 +1,38 @@
+author: Peter Blohm
+# These profiles matched known papers. Individual works still require corroboration.
+openalex_author_id: A5046183342
+semantic_scholar_author_id: "12264336"
+
+identity_papers:
+  - Probably Approximately Global Robustness Certification
+  - Discovering Opinion Intervals from Conflicts in Signed Graphs
+  - "Composition of Pretrained Diffusion Models: A Logic-Based Calculus"
+  - Temperature Scaling in Discrete Sequence (Language) Models
+  - "The Back Muscle Surface Electromyography-Based Fatigue Index: A Digital Biomarker of Human Neuromuscular Aging?"
+
+conference_venues:
+  - ICML
+  - ICLR
+  - NeurIPS
+  - International Conference on Machine Learning
+  - International Conference on Learning Representations
+  - Advances in Neural Information Processing Systems
+  - Neural Information Processing Systems
+
+# Add a DOI, arXiv identifier, or exact title for a candidate declined during review.
+exclude: []
+
+journal_venues:
+  - Bioengineering
+  - Journal of Clinical Medicine
+  - Communications in Kinesiology
+
+# OpenAlex can merge namesakes into one profile. These affiliations, known
+# coauthors, or a matching Scholar record corroborate individual API results.
+author_affiliations:
+  - TU Wien
+  - Vienna University of Technology
+  - Technische Universität Wien
+  - Aalto University
+  - Karl Landsteiner Society
+  - Karl Landsteiner Institute for Outpatient Rehabilitation

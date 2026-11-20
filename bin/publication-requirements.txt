@@ -1,0 +1,3 @@
+pybtex==0.26.1
+PyYAML==6.0.3
+-r scholar-requirements.txt

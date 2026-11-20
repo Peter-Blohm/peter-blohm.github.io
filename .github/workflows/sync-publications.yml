@@ -1,0 +1,83 @@
+name: Discover publications
+
+on:
+  schedule:
+    - cron: "15 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: publication-discovery
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Check for pending publication review
+        id: pending
+        run: |
+          pending=$(gh pr list --base "$DEFAULT_BRANCH" --state open --limit 1000 --json headRefName \
+            --jq '[.[] | select(.headRefName | startswith("automation/publications-"))] | length')
+          echo "count=$pending" >> "$GITHUB_OUTPUT"
+          if [ "$pending" != 0 ]; then
+            echo "A publication PR is awaiting review." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.pending.outputs.count == '0'
+        with:
+          python-version: "3.13"
+
+      - name: Discover and validate bibliography additions
+        if: steps.pending.outputs.count == '0'
+        id: discover
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+        run: |
+          pip install -r bin/publication-requirements.txt
+          python -m unittest discover -s bin -p test_sync_publications.py
+          python bin/sync_publications.py --discover --write --report "$RUNNER_TEMP/publications.md"
+          cat "$RUNNER_TEMP/publications.md" >> "$GITHUB_STEP_SUMMARY"
+          if ! git diff --quiet -- _bibliography/papers.bib; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: ruby/setup-ruby@v1
+        if: steps.discover.outputs.changed == 'true'
+        with:
+          ruby-version: "3.3.5"
+          bundler-cache: true
+
+      - name: Check publication rendering
+        if: steps.discover.outputs.changed == 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+          pip install nbconvert
+          JEKYLL_ENV=production bundle exec jekyll build
+          python bin/check_publication_rendering.py _site
+
+      - name: Open pull request
+        if: steps.discover.outputs.changed == 'true'
+        run: |
+          branch="automation/publications-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add -- _bibliography/papers.bib
+          git commit -m "feat: Propose newly discovered publications"
+          git push origin "$branch"
+          gh pr create --base "$DEFAULT_BRANCH" --head "$branch" --title "Review newly discovered publications" \
+            --body-file "$RUNNER_TEMP/publications.md"

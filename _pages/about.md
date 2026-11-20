@@ -6,7 +6,7 @@ subtitle: TU Wien
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile-peter.png
   image_circular: false
 
 selected_papers: true
