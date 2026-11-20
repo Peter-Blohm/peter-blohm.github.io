@@ -14,20 +14,33 @@
       {
         "network": "Website",
         "url": "https://peter-blohm.github.io"
-      },
-      {
-        "network": "Email (Aalto)",
-        "url": "mailto:peter.blohm@aalto.fi"
       }
     ]
   },
   "work": [
     {
+      "name": "TU Wien",
+      "position": "PreDoc Project Assistant / PhD Researcher",
+      "location": "Vienna, Austria",
+      "startDate": "2026-02",
+      "summary": "Research Unit for Machine Learning",
+      "highlights": ["Supervised by Thomas Gärtner and Ezio Bartocci", "Learning-theory-based formal verification"]
+    },
+    {
       "name": "Aalto University",
       "position": "Research Assistant",
       "location": "Finland",
-      "startDate": "2025-01-01",
-      "endDate": "2026-01-01",
+      "startDate": "2026-06",
+      "endDate": "2026-09",
+      "summary": "Quantum Machine Learning Group",
+      "highlights": ["ASci Summer Internship with Vikas Garg", "Contributed to research on diffusion-model steering and GFlowNets"]
+    },
+    {
+      "name": "Aalto University",
+      "position": "Research Assistant",
+      "location": "Finland",
+      "startDate": "2025-06",
+      "endDate": "2026-01",
       "summary": "Quantum Machine Learning Group",
       "highlights": [
         "Supervisor: Asst. Prof. Vikas Garg",
@@ -40,8 +53,8 @@
       "name": "TU Wien",
       "position": "Student Assistant in Research",
       "location": "Vienna, Austria",
-      "startDate": "2024-01-01",
-      "endDate": "2025-01-01",
+      "startDate": "2024-10",
+      "endDate": "2025-05",
       "summary": "Research Unit for Machine Learning",
       "highlights": [
         "Supervisor: Asst. Prof. Stefan Neumann",
@@ -53,8 +66,8 @@
       "name": "TU Wien",
       "position": "Student Assistant in Research",
       "location": "Vienna, Austria",
-      "startDate": "2024-01-01",
-      "endDate": "2024-12-31",
+      "startDate": "2023-10",
+      "endDate": "2024-03",
       "summary": "Research Unit for Machine Learning",
       "highlights": [
         "Supervisor: Prof. Thomas Gärtner",
@@ -66,7 +79,7 @@
       "name": "Karl Landsteiner Institute for Outpatient Rehabilitation",
       "position": "Medical Data Analyst",
       "location": "Austria",
-      "startDate": "2019-01-01",
+      "startDate": "2019-04",
       "summary": "Part-time employment at a medical research facility",
       "highlights": [
         "Statistical analysis and machine learning on medical data",
@@ -77,8 +90,8 @@
       "name": "Austrian Armed Forces",
       "position": "Cyber-Grundwehrdiener (Armed Forces IT Personnel)",
       "location": "Austria",
-      "startDate": "2018-01-01",
-      "endDate": "2019-01-01",
+      "startDate": "2018-10",
+      "endDate": "2019-03",
       "summary": "Mandatory military service",
       "highlights": ["Six months with focus on cyber operations"]
     }
@@ -90,7 +103,7 @@
       "location": "Vienna, Austria",
       "area": "Automated Reasoning Doctoral College",
       "studyType": "PhD",
-      "startDate": "2026-01-01",
+      "startDate": "2026-02",
       "highlights": ["Supervisors: Prof. Thomas Gärtner; Prof. Ezio Bartocci", "Research area: learning-theory-based formal verification"]
     },
     {
@@ -102,7 +115,7 @@
       "endDate": "2025-01-01",
       "highlights": [
         "Supervisors: Prof. Thomas Gärtner; Sagar Malhotra, PhD",
-        "Thesis: Probabilistic Verification of Black-Box Systems",
+        "Thesis: [Probabilistic Verification of Black-Box Systems](https://doi.org/10.34726/hss.2025.128785)",
         "Focus on algorithms, artificial intelligence, knowledge representation, and logic"
       ]
     },
@@ -135,6 +148,11 @@
   ],
   "awards": [
     {
+      "title": "Gold Reviewer",
+      "date": "2026-05-15",
+      "awarder": "ICML 2026"
+    },
+    {
       "title": "Best Master Thesis Award 2025 (Runner Up)",
       "date": "2025-01-01",
       "awarder": "Faculty of Informatics, TU Wien",
@@ -144,7 +162,7 @@
       "title": "NeurIPS Financial Support",
       "date": "2025-01-01",
       "awarder": "NeurIPS",
-      "summary": "Awarded to first-time conference authors"
+      "summary": "Supported attendance and presentation of research at NeurIPS 2025"
     },
     {
       "title": "Merit Scholarship",
@@ -162,6 +180,13 @@
   "certificates": [],
   "publications": [
     {
+      "name": "Temperature Scaling in Discrete Sequence (Language) Models",
+      "publisher": "International Conference on Machine Learning (ICML)",
+      "releaseDate": "2026",
+      "url": "https://proceedings.mlr.press/v306/scheufele26a.html",
+      "summary": "Hannah Scheufele and Peter Blohm (equal contribution), Vikas K. Garg"
+    },
+    {
       "name": "Composition of Pretrained Diffusion Models: A Logic-Based Calculus",
       "publisher": "International Conference on Learning Representations (ICLR)",
       "releaseDate": "2026-01-01",
@@ -169,11 +194,18 @@
       "summary": "Peter Blohm, Vikas K. Garg"
     },
     {
+      "name": "Breaking Down the Radon Machine: The Geometry of a Robust Aggregation Scheme",
+      "publisher": "ECML PKDD 2024 Workshops",
+      "releaseDate": "2026",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-25314-9_23",
+      "summary": "Peter Blohm, Patrick Indri, Thomas Gärtner. Presented at the 2024 Workshop on Advancements in Federated Learning. Proceedings published in 2026."
+    },
+    {
       "name": "Discovering Opinion Intervals from Conflicts in Signed Graphs",
       "publisher": "Advances in Neural Information Processing Systems (NeurIPS)",
       "releaseDate": "2025-01-01",
       "url": "https://openreview.net/forum?id=zJdutIT6vT",
-      "summary": "Peter Blohm, Florian Chen, Aristides Gionis, Stefan Neumann"
+      "summary": "Peter Blohm and Florian Chen (equal contribution), Aristides Gionis, Stefan Neumann. Oral presentation."
     },
     {
       "name": "Probably Approximately Global Robustness Certification",
@@ -181,6 +213,34 @@
       "releaseDate": "2025-01-01",
       "url": "https://openreview.net/forum?id=UKHlXpiFMy",
       "summary": "Peter Blohm, Patrick Indri, Thomas Gärtner, Sagar Malhotra"
+    },
+    {
+      "name": "Fuzzy Logic Composition of Diffusion Models",
+      "publisher": "DiffCoALG Workshop at NeurIPS",
+      "releaseDate": "2025",
+      "url": "https://openreview.net/forum?id=V51aXkF9bB",
+      "summary": "Peter Blohm, Vikas K. Garg. Workshop poster."
+    },
+    {
+      "name": "Distillation Based Robustness Verification with PAC Guarantees",
+      "publisher": "Next Generation of AI Safety Workshop at ICML",
+      "releaseDate": "2024",
+      "url": "https://openreview.net/forum?id=vflefS3lmB",
+      "summary": "Patrick Indri, Peter Blohm, Anagha Athavale, Ezio Bartocci, Georg Weissenbacher, Matteo Maffei, Dejan Nickovic, Thomas Gärtner, Sagar Malhotra (first two authors contributed equally). Workshop paper."
+    },
+    {
+      "name": "Machine Learning Based Linking of Patient Reported Outcome Measures to WHO International Classification of Functioning, Disability, and Health Activity/Participation Categories",
+      "publisher": "Journal of Clinical Medicine",
+      "releaseDate": "2023",
+      "url": "https://www.mdpi.com/2077-0383/12/17/5609",
+      "summary": "Richard Habenicht, Elisabeth Fehrmann, Peter Blohm, Gerold Ebenbichler, Linda Fischer-Grote, Josef Kollmitzer, Patrick Mair, Thomas Kienbacher"
+    },
+    {
+      "name": "The Back Muscle Surface Electromyography-Based Fatigue Index: A Digital Biomarker of Human Neuromuscular Aging?",
+      "publisher": "Bioengineering",
+      "releaseDate": "2023",
+      "url": "https://www.mdpi.com/2306-5354/10/3/300",
+      "summary": "Gerold Ebenbichler, Richard Habenicht, Peter Blohm, Paolo Bonato, Josef Kollmitzer, Patrick Mair, Thomas Kienbacher"
     }
   ],
   "skills": [
@@ -195,13 +255,13 @@
   "projects": [
     {
       "name": "Teaching Assistantship: Introduction to Machine Learning",
-      "summary": "Student Teaching Assistant at TU Wien (2023–2024)",
+      "summary": "Student Teaching Assistant at TU Wien (April–September 2024)",
       "highlights": [
         "Assisted organization of course material, assignments, grading, and student support",
         "Designed and ran an applied student project as a Kaggle competition"
       ],
-      "startDate": "2023-01-01",
-      "endDate": "2024-01-01"
+      "startDate": "2024-04",
+      "endDate": "2024-09"
     },
     {
       "name": "Invited Talk: Probably Approximately Global Robustness Certification",
