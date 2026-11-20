@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have returned to Aalto University for a summer research internship in [Vikas Garg's group](https://www.aalto.fi/en/people/vikas-kumar-garg).
+I have returned to Aalto University for a summer research internship in [Vikas Garg's group](https://people.csail.mit.edu/vgarg/).

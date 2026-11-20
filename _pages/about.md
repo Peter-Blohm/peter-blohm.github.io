@@ -27,7 +27,7 @@ I am a PhD researcher at TU Wien working on theoretical machine learning, partic
 
 I am part of the Automated Reasoning Doctoral College and am advised by [Thomas Gärtner](https://thomasgaertner.org/) and Ezio Bartocci.
 
-I worked as a research assistant in [Vikas Garg](https://www.aalto.fi/en/people/vikas-kumar-garg)’s [QuML group](https://quml.aalto.fi/about-us/) at Aalto University from June 2025 to January 2026 and again from June to September 2026.
+I worked as a research assistant in [Vikas Garg](https://people.csail.mit.edu/vgarg/)’s [QuML group](https://quml.aalto.fi/about-us/) at Aalto University from June 2025 to January 2026 and again from June to September 2026.
 
 Before beginning my PhD, I worked on interval-based embeddings for signed interaction graphs as a student research assistant at TU Wien, supervised by [Stefan Neumann](https://neumannstefan.com/).
 
