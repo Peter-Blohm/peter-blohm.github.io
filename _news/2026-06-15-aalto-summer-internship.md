@@ -1,8 +1,0 @@
----
-layout: post
-date: 2026-06-15
-inline: true
-related_posts: false
----
-
-I have returned to Aalto University for a summer research internship in [Vikas Garg's group](https://people.csail.mit.edu/vgarg/).
